@@ -1,0 +1,19 @@
+{
+  "name": "productly",
+  "version": "1.0.0",
+  "description": "productly",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch assets/sass/style.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BertFrontEnd/productly.git"
+  },
+  "author": "BertFrontEnd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BertFrontEnd/productly/issues"
+  },
+  "homepage": "https://github.com/BertFrontEnd/productly#readme"
+}

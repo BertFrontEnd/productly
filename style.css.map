@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "style.scss"
-    ],
-    "names": [],
-    "file": "style.css"
-}
+{"version":3,"sourceRoot":"","sources":["assets/sass/base/_base.scss"],"names":[],"mappings":"AAAA;EAEE;;;AAGF;EAEE;EACA","file":"style.css"}
