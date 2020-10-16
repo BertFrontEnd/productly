@@ -1,0 +1,20 @@
+.promo {
+  // box-model
+  padding: 30px 0;
+}
+
+.promo__wrapper {
+  // box-model
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promo__content {
+  // box-model
+  padding-right: 65px;
+}
+
+.promo__buttons > .button {
+  margin-right: 44px;
+}

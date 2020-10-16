@@ -15,7 +15,8 @@ ol {
 ul,
 ol,
 ul[class],
-ol[class] {
+ol[class],
+button {
   padding: 0;
 }
 
@@ -32,6 +33,7 @@ ul,
 ol,
 ul[class],
 ol[class],
+button,
 figure,
 blockquote,
 dl,
