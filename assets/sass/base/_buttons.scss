@@ -11,32 +11,32 @@
   transition: all 0.3s;
   // other
   cursor: pointer;
-}
 
-.button--bordered {
-  // typography
-  color: $color-text;
-  // decor
-  border: 1px solid $color-border;
-  background-color: $color-light;
-}
+  &--bordered {
+    // typography
+    color: $color-text;
+    // decor
+    border: 1px solid $color-border;
+    background-color: $color-light;
 
-.button--colored {
-  // typography
-  color: $color-light;
-  // decor
-  background-color: $color-primary;
-  border: 1px solid $color-primary;
-}
+    &:hover {
+      // decor
+      background-color: $color-hovered;
+      border-color: $color-hovered;
+    }
+  }
 
-.button--colored:hover {
-  // decor
-  background-color: $color-additional;
-  border: 1px solid $color-additional;
-}
+  &--colored {
+    // typography
+    color: $color-light;
+    // decor
+    background-color: $color-primary;
+    border: 1px solid $color-primary;
 
-.button--bordered:hover {
-  // decor
-  background-color: $color-hovered;
-  border: 1px solid $color-hovered;
+    &:hover {
+      // decor
+      background-color: $color-additional;
+      border-color: $color-additional;
+    }
+  }
 }

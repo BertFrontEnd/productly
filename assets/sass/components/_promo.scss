@@ -15,6 +15,11 @@
   padding-right: 65px;
 }
 
+.promo__title {
+  // box-model
+  margin: 0 0 30px;
+}
+
 .promo__buttons > .button {
   margin-right: 44px;
 }

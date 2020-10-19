@@ -13,32 +13,32 @@ body {
 
 h1 {
   font-family: "Poppins Bold", Verdana, sans-serif;
-  font-size: 44px;
-  line-height: 54px;
+  font-size: 4.4rem;
+  line-height: 5.4rem;
 }
 
 h2 {
   font-family: "Open Sans Bold", Verdana, sans-serif;
-  font-size: 34px;
-  line-height: 46px;
+  font-size: 3.4rem;
+  line-height: 4.6rem;
 }
 
 h3 {
   font-family: "Open Sans Bold", Verdana, sans-serif;
-  font-size: 24px;
-  line-height: 34px;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
 }
 
 h4 {
   font-family: "Open Sans SemiBold", Verdana, sans-serif;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 2.2rem;
+  line-height: 3rem;
 }
 
 h5 {
   font-family: "Open Sans Bold", Verdana, sans-serif;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
 }
 
 .button {
@@ -50,27 +50,23 @@ h5 {
   transition: all 0.3s;
   cursor: pointer;
 }
-
 .button--bordered {
   color: #544837;
   border: 1px solid #d7d7d7;
   background-color: #ffffff;
 }
-
+.button--bordered:hover {
+  background-color: #bcd0e5;
+  border-color: #bcd0e5;
+}
 .button--colored {
   color: #ffffff;
   background-color: #ff9900;
   border: 1px solid #ff9900;
 }
-
 .button--colored:hover {
   background-color: #ff7549;
-  border: 1px solid #ff7549;
-}
-
-.button--bordered:hover {
-  background-color: #bcd0e5;
-  border: 1px solid #bcd0e5;
+  border-color: #ff7549;
 }
 
 .logo-svg:hover .logo-path {
@@ -133,6 +129,10 @@ h5 {
 
 .promo__content {
   padding-right: 65px;
+}
+
+.promo__title {
+  margin: 0 0 30px;
 }
 
 .promo__buttons > .button {
