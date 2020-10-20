@@ -1,0 +1,19 @@
+.navigation {
+  // box-model
+  display: flex;
+  // typography
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+}
+
+.navigation__link {
+  // box-model
+  padding: 0 10px;
+  // other
+  cursor: pointer;
+  @extend %transition;
+
+  &:hover {
+    color: $color-primary;
+  }
+}

@@ -1,3 +1,34 @@
 %transition {
+  // transition
   transition: all 0.3s ease-out;
+}
+
+%font-prim {
+  // typography
+  font-family: 'Open Sans', Verdana, sans-serif;
+}
+
+%font-prim-b {
+  // typography
+  font-family: 'Open Sans Bold', Verdana, sans-serif;
+}
+
+%font-prim-sb {
+  // typography
+  font-family: 'Open Sans SemiBold', Verdana, sans-serif;
+}
+
+%font-add {
+  // typography
+  font-family: 'Poppins', Verdana, sans-serif;
+}
+
+%font-add-b {
+  // typography
+  font-family: 'Poppins Bold', Verdana, sans-serif;
+}
+
+%font-add-sb {
+  // typography
+  font-family: 'Poppins SemiBold', Verdana, sans-serif;
 }

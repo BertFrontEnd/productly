@@ -6,34 +6,34 @@ html {
 body {
   // typography
   font-size: 1.6rem;
-  font-family: 'Open Sans', Verdana, sans-serif;
+  @extend %font-prim;
 }
 
 h1 {
   // typography
-  font-family: 'Poppins Bold', Verdana, sans-serif;
+  @extend %font-add;
   @include font($size: 4.4rem, $height: 5.4rem);
 }
 
 h2 {
   // typography
-  font-family: 'Open Sans Bold', Verdana, sans-serif;
+  @extend %font-prim-b;
   @include font($size: 3.4rem, $height: 4.6rem);
 }
 
 h3 {
-  font-family: 'Open Sans Bold', Verdana, sans-serif;
+  @extend %font-prim-b;
   @include font($size: 2.4rem, $height: 3.4rem);
 }
 
 h4 {
   // typography
-  font-family: 'Open Sans SemiBold', Verdana, sans-serif;
+  @extend %font-prim-sb;
   @include font($size: 2.2rem, $height: 3rem);
 }
 
 h5 {
   // typography
-  font-family: 'Open Sans Bold', Verdana, sans-serif;
+  @extend %font-prim-b;
   @include font($size: 1.6rem, $height: 2.6rem);
 }

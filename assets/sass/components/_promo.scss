@@ -21,5 +21,15 @@
 }
 
 .promo__buttons > .button {
+  // box-model
   margin-right: 44px;
+}
+
+.promo__text {
+  // box-model
+  max-width: 487px;
+  margin: 0 0 45px;
+  // typography
+  @extend %font-add;
+  @include font($size: 1.8rem, $height: 2.8rem);
 }

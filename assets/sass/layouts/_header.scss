@@ -26,19 +26,3 @@
   // box-model
   margin-left: 0;
 }
-
-.navigation {
-  // box-model
-  display: flex;
-  // typography
-  font-size: 1.5rem;
-  line-height: 2.8rem;
-}
-
-.navigation__link {
-  // box-model
-  padding: 0 10px;
-
-  // other
-  cursor: pointer;
-}
