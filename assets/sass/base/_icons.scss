@@ -1,0 +1,14 @@
+.ico {
+  // box-model
+  display: inline-block;
+  // other
+  cursor: pointer;
+}
+
+.ico--play {
+  // box-model
+  width: 18px;
+  height: 19px;
+  // decor
+  background-image: url('../../img/icons/play.svg');
+}

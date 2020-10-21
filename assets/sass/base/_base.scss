@@ -5,8 +5,8 @@ html {
 
 body {
   // typography
-  font-size: 1.6rem;
   @extend %font-prim;
+  @include font($size: 1.6rem, $height: 2.6rem);
 }
 
 h1 {
