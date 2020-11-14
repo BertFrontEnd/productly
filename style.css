@@ -109,10 +109,67 @@ h5 {
   cursor: pointer;
 }
 
+.icon-square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 19px;
+}
+.icon-square--yellow {
+  background-color: #fab005;
+}
+.icon-square--red {
+  background-color: #f03e3d;
+}
+.icon-square--blue {
+  background-color: #4dadf7;
+}
+.icon-square--violet {
+  background-color: #7752be;
+}
+
 .ico--play {
   width: 18px;
   height: 19px;
-  background-image: url("../../img/icons/play.svg");
+  background-image: url("assets/img/icons/play.svg");
+}
+
+.ico--arrow {
+  width: 12px;
+  height: 17px;
+  background-image: url("assets/img/icons/arrow.svg");
+}
+
+.ico--snake {
+  width: 18px;
+  height: 14px;
+  background-image: url("assets/img/icons/snake.svg");
+}
+
+.ico--heart {
+  width: 17px;
+  height: 15px;
+  background-image: url("assets/img/icons/heart.svg");
+}
+
+.ico--clock {
+  width: 15px;
+  height: 17px;
+  background-image: url("assets/img/icons/clock.svg");
+}
+
+.ico--phone {
+  width: 13px;
+  height: 13px;
+  background-image: url("assets/img/icons/phone.svg");
+}
+
+.ico--letter {
+  width: 11px;
+  height: 8px;
+  background-image: url("assets/img/icons/letter.svg");
 }
 
 .wrapper {
@@ -216,6 +273,38 @@ h5 {
   margin: 0 0 45px;
   font-size: 1.8rem;
   line-height: 2.8rem;
+}
+
+.tools__wrapper {
+  padding-bottom: 90px;
+  background-image: url("assets/img/backgrounds/tools-bg.svg");
+  background-position: center bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.tools__title {
+  max-width: 462px;
+  margin: auto;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.tool__icon {
+  margin-bottom: 30px;
+}
+
+.tool__title {
+  margin: 0 0 16px;
+}
+
+.tools__button {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.strategies {
+  padding: 30px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
