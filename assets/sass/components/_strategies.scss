@@ -1,3 +1,41 @@
 .strategies {
   padding: 30px 0;
 }
+
+.strategies__title {
+  margin: 0 0 14px;
+}
+
+.strategies__description {
+  margin: 0 0 24px;
+}
+
+.strategies__tags {
+  margin-bottom: 31px;
+}
+
+.strategy-wrapper {
+  > * {
+    margin-bottom: 30px;
+  }
+}
+
+.strategy {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.strategy__content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 33px 26px;
+}
+
+.strategy__name {
+  flex-grow: 1;
+  margin: 0 0 29px;
+  text-align: left;
+}

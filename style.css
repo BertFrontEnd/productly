@@ -2,7 +2,7 @@
   transition: all 0.3s ease-out;
 }
 
-body {
+.tag, body {
   font-family: "Open Sans", Verdana, sans-serif;
 }
 
@@ -54,6 +54,11 @@ h4 {
 h5 {
   font-size: 1.6rem;
   line-height: 2.6rem;
+}
+
+.block-shadowed {
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
 .button {
@@ -172,6 +177,30 @@ h5 {
   background-image: url("assets/img/icons/letter.svg");
 }
 
+.tags {
+  display: flex;
+}
+.tags > * {
+  margin-right: 7px;
+}
+
+.tag {
+  font-size: 1.3rem;
+  line-height: 2.8rem;
+  padding: 0 14px;
+  border-radius: 90px;
+}
+.tag--selected {
+  background-color: #ff9900;
+  color: #ffffff;
+}
+.tag--bordered {
+  border: 1px solid #d7d7d7;
+}
+.tag--colored {
+  background-color: #f5f5f5;
+}
+
 .wrapper {
   max-width: 1197px;
   margin: 0 auto;
@@ -225,7 +254,7 @@ h5 {
   flex-wrap: wrap;
 }
 .layout-2-column > * {
-  flex-basis: 45%;
+  flex-basis: 48%;
 }
 
 .navigation {
@@ -243,7 +272,35 @@ h5 {
 }
 
 .contact-us {
+  padding: 62px 82px;
   background-color: #ffeee1;
+}
+
+.contact-us__form input,
+.contact-us__form textarea {
+  padding: 10px 21px;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+.contact-us__form input:focus,
+.contact-us__form textarea:focus {
+  border-color: #ff9900;
+  outline: none;
+}
+.contact-us__form textarea {
+  width: 100%;
+  height: 160px;
+  resize: none;
+}
+
+.contact-us__line {
+  margin-bottom: 19px;
+}
+
+.contact-us__button > * {
+  min-width: 117px;
 }
 
 .promo {
@@ -305,6 +362,42 @@ h5 {
 
 .strategies {
   padding: 30px 0;
+}
+
+.strategies__title {
+  margin: 0 0 14px;
+}
+
+.strategies__description {
+  margin: 0 0 24px;
+}
+
+.strategies__tags {
+  margin-bottom: 31px;
+}
+
+.strategy-wrapper > * {
+  margin-bottom: 30px;
+}
+
+.strategy {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.strategy__content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 33px 26px;
+}
+
+.strategy__name {
+  flex-grow: 1;
+  margin: 0 0 29px;
+  text-align: left;
 }
 
 /*# sourceMappingURL=style.css.map */
